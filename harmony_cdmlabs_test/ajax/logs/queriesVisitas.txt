@@ -1,0 +1,45 @@
+insert into visitproduct(
+					visprod_snr,
+					prod_snr,
+					vispers_snr,
+					prioritet,
+					rec_stat,
+					sync)
+					values(
+					NEWID(),
+					'F75D24FE-1BF6-44C9-A816-10064412191E',
+					'44FA0C22-D207-4F65-B004-0307A4C121F0',
+					1,
+					0,
+					0)
+					
+insert into visitproduct(
+					visprod_snr,
+					prod_snr,
+					vispers_snr,
+					prioritet,
+					rec_stat,
+					sync)
+					values(
+					NEWID(),
+					'17E14BE9-F8CC-48C1-84EA-9DB56C7B1BD5',
+					'44FA0C22-D207-4F65-B004-0307A4C121F0',
+					2,
+					0,
+					0)
+					
+insert into visitproduct(
+					visprod_snr,
+					prod_snr,
+					vispers_snr,
+					prioritet,
+					rec_stat,
+					sync)
+					values(
+					NEWID(),
+					'89EBE9E0-843E-4CC5-A7F9-FABC72F68B68',
+					'44FA0C22-D207-4F65-B004-0307A4C121F0',
+					3,
+					0,
+					0)
+					

@@ -1,0 +1,216 @@
+
+body{
+	font-family: Arial;
+	font-size: 10px;
+	background: #68B0AB;
+}
+h1{
+	color: blue;
+	text-decoration: underline;
+}			
+
+img{
+	cursor: pointer;
+}
+
+button{
+	border-radius: 5px;
+}
+
+#mapa { 
+	height: 500px; 
+}
+	
+#divInicio, 
+#divPersonasDatos, 
+#divCalendario, 
+#divCiclos, 
+#divMensajes, 
+#divInventario, 
+#divReportes, 
+#divGeo{
+	width: 1000px;
+	height: 500px;
+	background: white;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+#divConfig{
+	width: 500px;
+	height: 400px;
+	background: white;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+			
+#divPersonas, #divInstituciones{
+	width: 100%;
+	height: 400px;
+}
+
+#tabs, #tabsFiltros, #tabFiltrosInstituciones{
+	font-family: Arial;
+	font-size: 10px;
+}
+
+#tblRepresentantes thead, #tblPlan thead, #tblVisitas thead, #tblMultimedia thead{
+	font-weight: bold;
+	color: #FFFFFF;
+	background: gray;
+}
+
+#divTimer{
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+	width:50px;
+	height:15px;
+}
+			
+.zoomIt{
+	display:block!important;
+	-webkit-transition:-webkit-transform 1s ease-out;
+	-moz-transition:-moz-transform 1s ease-out;
+	-o-transition:-o-transform 1s ease-out;
+	-ms-transition:-ms-transform 1s ease-out;
+	transition:transform 1s ease-out;
+}
+.zoomIt:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.tituloModulo{
+	font-family: Arial;
+	color: grey;
+	font-size:20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.fadebox {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.6;
+	opacity:.6;
+	filter: alpha(opacity=60);
+}
+
+.overbox {
+	display: none;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 75%;
+	height: 70%;
+	z-index:1002;
+	overflow: auto;
+}
+
+.negrita{
+	font-weight: bold;
+	
+}
+
+.titulo{
+	
+	color: #FFFFFF;
+	background: gray;
+	font-weight: bold;
+}		
+
+.grid{
+	font-family: Arial;
+	font-size: 10px;
+	border-spacing: 0px 0px;
+}
+
+.grid thead, .grid tfoot{
+	background:#C0C0C0;
+	font-size: 11px;
+	font-weight:bold;
+}
+
+.grid tbody tr:nth-child(2n){
+	background: #F0F8FF;
+}
+
+.grid tbody tr:nth-child(2n+1){
+	background: #B0E0E6;
+}
+
+.grid tbody tr:hover{
+	background:#1E90FF;
+	color:#FFFFFF;
+}
+
+.grid tbody td{
+	padding: 0px 10px 0px 0px;
+}
+
+.borde{
+	background: url("iconos/Calendar_1.png");
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.lblMedicos{
+	font-size: 10px;
+	color: blue;
+	font-weight: bold;
+}
+
+.botones{
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	border-spacing: 0px 5px;
+}
+
+.botones td{
+	border: 1px black solid;
+	height: 20px;
+	padding: 0px 10px 0px 0px;
+}
+
+.botones td:hover{
+	background:#1E90FF;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+
+.imgTitulo{
+	width: 30px;
+	height: 30px;
+}
+
+.imgBoton{
+	width: 25px;
+	height: 25px;
+}
+
+#divModal{
+	border: 1px black solid;
+	width: 600px;
+	height: 400px;
+	margin-top: -400px;
+	position: relative;
+	z-index: 1;	
+}
+
+#cerrarInformacion:hover { 
+    background-color: yellow;
+}

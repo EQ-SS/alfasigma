@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" >
+	<head>
+		<meta charset="UTF-8" />
+		<title>
+			Dibujar Canvas
+		</title>
+		<style type="text/css">
+			
+			#canvas{
+				border: 1px solid  #000;
+			}
+			#tblFirma{
+				box-shadow: 2px 2px 10px #333;
+			}
+		</style>
+		<script type="text/javascript">
+			function comenzar(){
+				lienzo = document.getElementById('canvas');
+				ctx = lienzo.getContext('2d');
+				ctx.translate(-110,-110);
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				//ctx.clear();
+				//Dejamos todo preparado para escuchar los eventos
+				document.addEventListener('mousedown',pulsaRaton,false);
+				document.addEventListener('mousemove',mueveRaton,false);
+				document.addEventListener('mouseup',levantaRaton,false);
+			}
+
+			function pulsaRaton(capturo){
+				estoyDibujando = true;
+				//Indico que vamos a dibujar
+				ctx.beginPath();
+
+				//Averiguo las coordenadas X e Y por dónde va pasando el ratón
+				ctx.moveTo(capturo.clientX,capturo.clientY);
+			}
+
+			function mueveRaton(capturo){
+				if(estoyDibujando){
+					//indicamos el color de la línea
+					ctx.strokeStyle='#000';
+					//Por dónde vamos dibujando
+					ctx.lineTo(capturo.clientX,capturo.clientY);
+					ctx.stroke();
+				}
+			}
+
+			function levantaRaton(capturo){
+				//Indico que termino el dibujo
+				ctx.closePath();
+				estoyDibujando = false;
+			}
+			
+			function guardarFirma(){
+				var canvas = document.getElementById('canvas');
+				var dataURL = canvas.toDataURL();
+				document.getElementById("txtCode64").value = dataURL; 
+			}
+		</script>
+	</head>
+<!--Este código ha sido realizado por @eneakao, puedes utilizarlo libremente-->
+	<body onload="comenzar();">
+		<table border="0" id="tblFirma">
+			<tr>
+				<td colspan="3" align="center">
+					<canvas id="canvas" width="400" height="100"></canvas>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<button id="btnLimpiar" onClick="comenzar();">Limpiar</button>
+				</td>
+				<td>
+					Firmar sin salir del recuadro.
+				</td>
+				<td align="center">
+					<button id="btnGuardar" onClick="guardarFirma();">Guardar</button>
+				</td>
+			</tr>
+		</table>
+		
+		<br>
+		<textarea id="txtCode64" rows="10" cols="50"></textarea>
+	</body>
+
+</html>

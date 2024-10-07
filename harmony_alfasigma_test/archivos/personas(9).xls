@@ -1,0 +1,3818 @@
+﻿﻿<html>
+	<head>
+	</head>
+	<body>
+				<table width="100%" class="grid">
+			<thead>
+				<tr>
+					<td>Ruta</td>
+					<td>Codigo_Medico</td>
+					<td>Tipo</td>
+					<td>Apellido Paterno</td>
+					<td>Apellido Materno</td>
+					<td>Nombre</td>
+					<td>Esp Primaria</td>
+					<td>Categoria</td>
+					<td>Cedula</td>
+					<td>Nombre_CU</td>
+					<td>Fecha_Ruta</td>
+					<td>Calle</td>
+					<td>Colonia</td>
+					<td>CPostal</td>
+					<td>Del/Mun</td>
+					<td>Estado</td>
+					<td>Brick</td>
+					<td>Frec</td>
+					<td>Vis</td>
+					<td>Estatus</td>
+				</tr>
+			</thead>
+			<tbody>
+					<tr>
+						<td>4005</td>
+						<td>2FD729CB-884D-45DB-84F7-389284CF351F</td>
+						<td>MEDICO</td>
+						<td>AGUILAR</td>
+						<td>GUERRERO</td>
+						<td>MARISOL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1977926</td>
+						<td>727296</td>
+						<td>2017-12-29</td>
+						<td>4A. PONIENTE NO. 42</td>
+						<td>ISIDRO FABELA</td>
+						<td>14030</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022042 - ZP 22 ISIDRO FABELA CP14030</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>79928E4A-6C0C-40DB-B532-5935A224B569</td>
+						<td>MEDICO</td>
+						<td>AGUILAR</td>
+						<td>OLIVOS</td>
+						<td>NANCY EDITH</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>8567461</td>
+						<td>1401808</td>
+						<td>2018-03-23</td>
+						<td>PUENTE DE PIEDRA 150 ENDOSCOPIA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>F9241B40-8F73-4C4A-8763-C4BEFA75AD05</td>
+						<td>MEDICO</td>
+						<td>AGUIRRE</td>
+						<td>PATINO</td>
+						<td>JOSE JAVIER</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>2586192</td>
+						<td>727524</td>
+						<td>2018-06-10</td>
+						<td>MIXTECOS ESQ NAHOAS</td>
+						<td>PEDREGAL DE LAS AGUILAS</td>
+						<td>14439</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>90D01E69-8B3D-4F02-B8BE-D027146D3C49</td>
+						<td>MEDICO</td>
+						<td>ALFARO</td>
+						<td>MONTERO</td>
+						<td>MARVEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>2945412</td>
+						<td>878973</td>
+						<td>2019-01-04</td>
+						<td>AV OCTAVA SUR</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>94B1507C-5886-4348-8F9F-7D2B84722A99</td>
+						<td>MEDICO</td>
+						<td>ALQUICIRA</td>
+						<td>TRUJANO</td>
+						<td>ISABEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1606477</td>
+						<td>728117</td>
+						<td>2017-12-29</td>
+						<td>BUENAVISTA NO. 5</td>
+						<td>SAN PEDRO MARTIR</td>
+						<td>14650</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022154 - ZP 22 SAN PEDRO MARTIR CP1465</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>9B3CBD25-E34E-4D15-B3CC-ACE4C1C7C255</td>
+						<td>MEDICO</td>
+						<td>ALTAMIRANO</td>
+						<td>BARRERA</td>
+						<td>ALEJANDRA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>11020672</td>
+						<td>1000811748</td>
+						<td>2018-12-17</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>ED271D01-AA14-423D-83B5-A27C7941ECBB</td>
+						<td>MEDICO</td>
+						<td>AWAD</td>
+						<td>REYES</td>
+						<td>RICHARD ALEXANDER</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>0978251</td>
+						<td>729524</td>
+						<td>2014-01-10</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D437B22F-DD9E-4B76-879D-80BC955B1F3C</td>
+						<td>MEDICO</td>
+						<td>BALBUENA</td>
+						<td>CARRILLO</td>
+						<td>ALEJANDRO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>6025236</td>
+						<td>923059</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>7F505971-96A8-43D6-ADB9-9FE9A874E515</td>
+						<td>MEDICO</td>
+						<td>BALDERAS</td>
+						<td>JUAREZ</td>
+						<td>GERARDO GONZALO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>573199</td>
+						<td>867230</td>
+						<td>2019-04-14</td>
+						<td>SABADEL 100</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>99EE2DE5-5E5A-4C54-A7E5-488739F2D5EE</td>
+						<td>MEDICO</td>
+						<td>BARRAGAN</td>
+						<td>DIAZ</td>
+						<td>BEATRIZ</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1957899</td>
+						<td>848776</td>
+						<td>2019-01-04</td>
+						<td>6A SUR ESQ 12 PTE</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>1C38EE1F-649D-4A11-B1A9-8D40866CAEC8</td>
+						<td>MEDICO</td>
+						<td>BASURTO</td>
+						<td>MORALES</td>
+						<td>MARGARITA ELIZABETH</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7035233</td>
+						<td>1449558</td>
+						<td>2018-05-04</td>
+						<td>AV INSURGENTES SUR 3579</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3297979A-2C65-464F-BAB1-E728F4DEC0D4</td>
+						<td>MEDICO</td>
+						<td>BAZA</td>
+						<td>DE LA CRUZ</td>
+						<td>RAYBEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3309385</td>
+						<td>730581</td>
+						<td>2017-01-30</td>
+						<td>AV INSURGENTES SUR 3579</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D00A7423-81B5-4D60-AAFC-1426D3CD2460</td>
+						<td>MEDICO</td>
+						<td>BECERRA</td>
+						<td>LAPARRA</td>
+						<td>IVONNE KARINA</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>2683766</td>
+						<td>730611</td>
+						<td>2014-01-13</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>9301A0D0-9C44-4557-BD8D-136A6F18084E</td>
+						<td>MEDICO</td>
+						<td>BECERRA</td>
+						<td>VAZQUEZ</td>
+						<td>DAVID ARMANDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3626886</td>
+						<td>730623</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C56DE0C3-530C-42D7-B64D-6C8F5A46C1CB</td>
+						<td>MEDICO</td>
+						<td>BELLO</td>
+						<td>ROMERO</td>
+						<td>NANCY</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>2391525</td>
+						<td>730715</td>
+						<td>2018-06-10</td>
+						<td>PIONEROS</td>
+						<td>EJIDOS DE SAN PEDRO MARTIR</td>
+						<td>14640</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022147 - ZP 22 EJIDO PEDRO MARTIR 1464</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>75D03464-C6CE-41B4-9746-8BC192848A7C</td>
+						<td>MEDICO</td>
+						<td>BRIZUELA</td>
+						<td>ALCANTARA</td>
+						<td>DIANA CARINA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>2146712</td>
+						<td>1338290</td>
+						<td>2014-06-10</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>87E544B4-6A8D-4A2A-B010-3B4EFB9785FF</td>
+						<td>MEDICO</td>
+						<td>CABALLERO</td>
+						<td>TORRES</td>
+						<td>MARIA LUISA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>0470648</td>
+						<td>731634</td>
+						<td>2014-01-23</td>
+						<td>CHILAPA NO. 78</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>5DDCF9FB-BDDB-4F66-AA4D-791523927568</td>
+						<td>MEDICO</td>
+						<td>CABRERA</td>
+						<td>TELLO</td>
+						<td>JESUS MANUEL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>1374899</td>
+						<td>849259</td>
+						<td>2019-01-04</td>
+						<td>CTRAL SUR 59</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>84D3DF89-1EA4-4199-950F-224EBE827D1E</td>
+						<td>MEDICO</td>
+						<td>CAMACHO</td>
+						<td>MAURIES</td>
+						<td>DANIEL IGNACIO</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>4380711</td>
+						<td>1745712</td>
+						<td>2014-09-08</td>
+						<td>PUENTE DE PIEDRA 150 CONS 330 T1</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C7DF829D-C3E1-45DD-84F3-FDBDAF1CA800</td>
+						<td>MEDICO</td>
+						<td>CAMADO</td>
+						<td>ALMENTE</td>
+						<td>ADRIAN</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>30203584</td>
+						<td></td>
+						<td></td>
+						<td>EMILIANO ZAPATA</td>
+						<td>SAN MIGUEL XICALCO</td>
+						<td>14490</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022130 - ZP 22 SAN MIGUEL XICALCO 1449</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>DA73B78F-CB80-4CFD-B8CE-6DC8095D3136</td>
+						<td>MEDICO</td>
+						<td>CAMAS</td>
+						<td>ESCOBAR</td>
+						<td>EDUARDO DIDIER</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7046290</td>
+						<td>1016295</td>
+						<td>2019-01-04</td>
+						<td>AV AYUNTAMIENTO 816</td>
+						<td>HUIXTLA CENTRO</td>
+						<td>30640</td>
+						<td>HUIXTLA</td>
+						<td>CHIAPAS</td>
+						<td>08020001 - HUIXTLA</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B39DA1E3-120C-4031-BB0D-9FFBD879A413</td>
+						<td>MEDICO</td>
+						<td>CAMPOS</td>
+						<td>MORENO</td>
+						<td>EFREN JOSELINO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>6442273</td>
+						<td>1411287</td>
+						<td>2019-01-04</td>
+						<td>11 NORTE No 7</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>13A84A5C-FFDC-42F0-82BB-DEE170528E4A</td>
+						<td>MEDICO</td>
+						<td>CANO</td>
+						<td>GUADIANA</td>
+						<td>MARCOS</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0707388</td>
+						<td>732280</td>
+						<td>2014-02-21</td>
+						<td>PTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8A3919B1-102B-4F81-9173-AA85B1797BA2</td>
+						<td>MEDICO</td>
+						<td>CANTO</td>
+						<td>PEREZ</td>
+						<td>CARLOS AUGUSTO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>0235072</td>
+						<td>732338</td>
+						<td>2014-01-28</td>
+						<td>PUENTE DE PIEDRA T1 NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>69E45D05-75C3-4D21-8ECE-569C84F903E6</td>
+						<td>MEDICO</td>
+						<td>CASTILLO</td>
+						<td>GUERRERO</td>
+						<td>JORGE HOLBERTO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4512168</td>
+						<td>1108853</td>
+						<td>2019-01-04</td>
+						<td>BELISARIO DZ PTE 17</td>
+						<td>HUIXTLA CENTRO</td>
+						<td>30640</td>
+						<td>HUIXTLA</td>
+						<td>CHIAPAS</td>
+						<td>08020001 - HUIXTLA</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>FD94C046-DD10-4F43-ABFC-5282890EA806</td>
+						<td>MEDICO</td>
+						<td>CASTILLO</td>
+						<td>ROMERO</td>
+						<td>NOEMI</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>796240</td>
+						<td>733252</td>
+						<td>2019-01-30</td>
+						<td>CALZ DE TLALPAN 5055</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B7023268-D76A-41BF-9428-4CFF086F6E1B</td>
+						<td>MEDICO</td>
+						<td>CASTRO</td>
+						<td>NARRO</td>
+						<td>GRACIELA ELIA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1640571</td>
+						<td>733408</td>
+						<td>2014-02-12</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>9AE32D72-087A-411A-BCFB-90A0228B7618</td>
+						<td>MEDICO</td>
+						<td>CERDA</td>
+						<td>CONTRERAS</td>
+						<td>EDUARDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>543216</td>
+						<td>733664</td>
+						<td>2014-02-18</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>5C68AE1E-1B8A-4707-BABD-7695769F155C</td>
+						<td>MEDICO</td>
+						<td>CHAN</td>
+						<td>NUNEZ</td>
+						<td>LUIS CARLOS</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>2086162</td>
+						<td>733864</td>
+						<td>2014-01-08</td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>BBEA8FC4-C30D-44E8-ACA6-8A4C1F5C3CA6</td>
+						<td>MEDICO</td>
+						<td>CHAU</td>
+						<td>CHANG</td>
+						<td>JUAN CARLOS</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>3176238</td>
+						<td>849844</td>
+						<td>2019-01-04</td>
+						<td>CLL 2 PTE ENTRE 6 A Y 8 A 26</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>4C770015-F095-40BA-99AE-21057DBCCEFA</td>
+						<td>MEDICO</td>
+						<td>CHAVEZ</td>
+						<td>TAPIA</td>
+						<td>NORBERTO CARLOS</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>7342794</td>
+						<td>735598</td>
+						<td>2019-01-15</td>
+						<td>PUENTE DE PIEDRA 15</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>CD96B2FF-CDBF-412F-96E5-81F71CC6C920</td>
+						<td>MEDICO</td>
+						<td>CORTES</td>
+						<td>GONZALEZ</td>
+						<td>RUBEN</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>0357148</td>
+						<td>734713</td>
+						<td>2014-02-12</td>
+						<td>PUENTE DE PIEDRA T-2 NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2E1F1C9C-0AD4-43DF-B79A-F2EAD826DB27</td>
+						<td>MEDICO</td>
+						<td>COSS</td>
+						<td>ADAME</td>
+						<td>ENRIQUE</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>3692869</td>
+						<td>1827869</td>
+						<td>2014-11-05</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C14D5563-A374-471E-BE28-4022BB04087E</td>
+						<td>MEDICO</td>
+						<td>CUAUTLE</td>
+						<td>BAEZ</td>
+						<td>LOURDES</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>2630467</td>
+						<td>735298</td>
+						<td>2018-06-10</td>
+						<td>MORELOS 3</td>
+						<td>SAN MIGUEL XICALCO</td>
+						<td>14490</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022130 - ZP 22 SAN MIGUEL XICALCO 1449</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0FCA036E-06C0-41DA-A6D0-D39E0462AB91</td>
+						<td>MEDICO</td>
+						<td>DUARTE</td>
+						<td>FIGUEROA</td>
+						<td>ORLANDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>803458</td>
+						<td>822648</td>
+						<td>2019-01-04</td>
+						<td>PORFIRIO DIAZ PTE 7</td>
+						<td>HUIXTLA CENTRO</td>
+						<td>30640</td>
+						<td>HUIXTLA</td>
+						<td>CHIAPAS</td>
+						<td>08020001 - HUIXTLA</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>4C53F4EF-7516-4F93-B446-49A5CE7D5965</td>
+						<td>MEDICO</td>
+						<td>ELIAS</td>
+						<td>LOPEZ</td>
+						<td>DANIEL BENJAMIN</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>7674024</td>
+						<td>1141120</td>
+						<td>2019-01-15</td>
+						<td>PUENTE DE PIEDRA 15</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>BF90724A-5597-4861-A63D-0D9DA2AE6E00</td>
+						<td>MEDICO</td>
+						<td>ESCARCEGA</td>
+						<td>REYES</td>
+						<td>FERNANDO EULOGIO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1441521</td>
+						<td>737267</td>
+						<td>2018-06-11</td>
+						<td>CALLE 2 NORTE 40</td>
+						<td>ISIDRO FABELA</td>
+						<td>14030</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022042 - ZP 22 ISIDRO FABELA CP14030</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B0EEEADC-F44F-4292-B20D-26F8A603FDFD</td>
+						<td>MEDICO</td>
+						<td>ESCOTTO</td>
+						<td>SANCHEZ</td>
+						<td>IGNACIO</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA-R</td>
+						<td>2251604</td>
+						<td>737363</td>
+						<td>2014-07-15</td>
+						<td>PUENTE DE PIEDRA 150 T2-CLINICA DE VASCULISACION</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2C0553B6-B889-468C-B72A-9EC93A1A3242</td>
+						<td>MEDICO</td>
+						<td>FONSECA</td>
+						<td>TORRES</td>
+						<td>HILDA</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>5397197</td>
+						<td>621935</td>
+						<td>2019-01-04</td>
+						<td>CLL 3A SUR OTE 12</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>630A2B73-E59F-484B-A405-07B41EA9B7A0</td>
+						<td>MEDICO</td>
+						<td>GAONA</td>
+						<td>LUVIANO</td>
+						<td>PATRICIA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7929</td>
+						<td>740765</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>73CC8ED3-82FD-4625-A3F8-6A067C1D86EE</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>ANDRACA</td>
+						<td>MARIO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>75674</td>
+						<td>739224</td>
+						<td>2017-12-29</td>
+						<td>ORIENTE 7</td>
+						<td>ISIDRO FABELA</td>
+						<td>14030</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022042 - ZP 22 ISIDRO FABELA CP14030</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8AF0679A-E44A-49C7-8117-EE7C258FEF47</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>CARBAJO</td>
+						<td>MARIO</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>3099078</td>
+						<td>970117</td>
+						<td>2019-01-04</td>
+						<td>QUINTA PRIV SUR 1 2B</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>401FC853-5D50-461F-ADE4-2435B7F62D96</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>JUAREZ</td>
+						<td>IGNACIO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>8284585</td>
+						<td>1316651</td>
+						<td>2014-08-13</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8A616768-271B-419B-ACCF-7F4CE1F1E9F5</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>REYES BARROSO</td>
+						<td>JOSE ANTONIO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>5607201</td>
+						<td></td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D889FB48-CEFB-44BF-A5B6-5329DE110126</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>SALAS</td>
+						<td>ROSA AMADA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1364771</td>
+						<td>740163</td>
+						<td>2014-01-29</td>
+						<td>TLALPAN NO. 4800</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>078DE443-8B5F-48CC-8629-C1CD95AF2AB0</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>SANDOVAL</td>
+						<td>IRMA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>557584</td>
+						<td>740199</td>
+						<td>2018-02-20</td>
+						<td>5 DE MAYO</td>
+						<td>SAN ANDRES TOTOLTEPEC</td>
+						<td>14400</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022104 - ZP 22 ANDRES TOTOLTEPEC 14400</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>DF8108FD-8A72-49ED-9177-278487FB3D54</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>VELAZQUEZ</td>
+						<td>LUIS ENRIQUE</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>10968507</td>
+						<td></td>
+						<td></td>
+						<td>AV. MEXICO AJUSCO</td>
+						<td>SAN MIGUEL XICALCO</td>
+						<td>14490</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022130 - ZP 22 SAN MIGUEL XICALCO 1449</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>5683A1C1-C4EA-4CC6-9C04-F139EF525F9D</td>
+						<td>MEDICO</td>
+						<td>GARCIA</td>
+						<td>VIVANCO</td>
+						<td>DIEGO MARTIN</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>8377115</td>
+						<td>1370393</td>
+						<td>2018-05-08</td>
+						<td>PUENTE DE PIEDRA 150 CLINICA GASTRO</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C3FF102A-E1FD-4B74-B2E4-7AAAF9792DA5</td>
+						<td>MEDICO</td>
+						<td>GOMEZ</td>
+						<td>ALFONSO</td>
+						<td>JUAN CARLOS</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1731981</td>
+						<td>878972</td>
+						<td>2019-01-04</td>
+						<td>AVENIDA LAS PALMAS N 2</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>18FC8E83-E25B-4FC9-8144-DBFE2A375C4D</td>
+						<td>MEDICO</td>
+						<td>GOMEZ</td>
+						<td>DOMINGUEZ</td>
+						<td>MERCEDES</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4180820</td>
+						<td>865344</td>
+						<td>2018-02-26</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>9DE4444A-2F0E-455C-9D73-248B934E67CE</td>
+						<td>MEDICO</td>
+						<td>GOMEZ</td>
+						<td>FERNANDEZ</td>
+						<td>LUIS</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>3176244</td>
+						<td>622562</td>
+						<td>2019-04-14</td>
+						<td>CENTRAL ORIENTE NO. 67</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>36D4F11B-7FB3-49E9-B925-0A6E6A40EC63</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>CONTRERAS</td>
+						<td>QUINTIN HECTOR</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>2210208</td>
+						<td>742842</td>
+						<td>2014-01-20</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>E5A5E223-7919-4739-9DD0-395EBB06B608</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>GALICIA</td>
+						<td>ELVIA MARGARITA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>543567</td>
+						<td>742941</td>
+						<td>2018-02-20</td>
+						<td>TEPECINCLE MZ 10</td>
+						<td>SANTISIMA TRINIDAD</td>
+						<td>14429</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022111 - ZP 22 LA MESA CP14420</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>295FBDA1-180C-4182-93FC-2067C7119200</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>GOMEZ</td>
+						<td>FRANCISCO JAVIER</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>881914</td>
+						<td>822935</td>
+						<td>2019-01-04</td>
+						<td>AV CTRAL NTE 98</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>70266644-C3F1-4091-BDF3-2BF25E3E8F3F</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>GONZALEZ</td>
+						<td>FILIBERTO</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>3411191</td>
+						<td>845445</td>
+						<td>2019-01-04</td>
+						<td>7 AV SUR 15 B</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>AE774D3E-8A11-4A96-8D0E-124B848EEC5F</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>MUNOZ</td>
+						<td>DAPHNE NUNILLE</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA-R</td>
+						<td>7605286</td>
+						<td>2437523</td>
+						<td>2018-03-08</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>6CD1D6AC-1662-48B4-9217-A420225B0BD6</td>
+						<td>MEDICO</td>
+						<td>GONZALEZ</td>
+						<td>VILLORDO</td>
+						<td>DAVID</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>7047090</td>
+						<td>1154965</td>
+						<td>2018-05-09</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3D14E174-C52F-40F0-9933-19727C67EF95</td>
+						<td>MEDICO</td>
+						<td>GORDILLO</td>
+						<td>DE ANDA</td>
+						<td>RODOLFO JAVIER</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0644276</td>
+						<td>741633</td>
+						<td>2015-01-23</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0B511A1C-F0E9-4F4E-B1F0-C8863AF4F819</td>
+						<td>MEDICO</td>
+						<td>GRAJALES</td>
+						<td>FIGUEROA</td>
+						<td>GUIDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>7342945</td>
+						<td>868415</td>
+						<td>2017-07-19</td>
+						<td>VASCO DE QUIROGA NO. 15 ENDOSCOPIA</td>
+						<td>BELISARIO DOMINGUEZ SECCION XVI</td>
+						<td>14080</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>946F6D9D-32FA-40F5-ABF6-B8A1AB650A8D</td>
+						<td>MEDICO</td>
+						<td>GUERRERO</td>
+						<td>CAZARES</td>
+						<td>JOAQUIN</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>345789</td>
+						<td>742289</td>
+						<td>2014-08-07</td>
+						<td>CALVARIO # 102</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0EF84E5A-799D-4BE3-9121-018A29D51B4A</td>
+						<td>MEDICO</td>
+						<td>GUEVARA</td>
+						<td>ARNAL</td>
+						<td>LUIS</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>1707453</td>
+						<td>742412</td>
+						<td>2014-01-15</td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>A78A272B-C1FB-4ECC-B451-1C34BBF6A9E6</td>
+						<td>MEDICO</td>
+						<td>GUTIERREZ</td>
+						<td>GROBE</td>
+						<td>YLSE</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>9976002</td>
+						<td>1000326103</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>A0BB2A11-986F-4D9E-BA4C-B59FDAF5A6BE</td>
+						<td>MEDICO</td>
+						<td>GUTIERREZ</td>
+						<td>NATAREN</td>
+						<td>JOSE ENRIQUE</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>29388</td>
+						<td>863177</td>
+						<td>2019-04-14</td>
+						<td>COATANCINTO ESQ 14 AV NORTE</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0112F6FA-40F1-4502-A8B8-C93AF3D7789B</td>
+						<td>MEDICO</td>
+						<td>HERNANDEZ</td>
+						<td>CALLEROS</td>
+						<td>JORGE</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>3238816</td>
+						<td>744297</td>
+						<td>2014-01-22</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>291211D8-E6FC-450D-8112-B5791D5F7F29</td>
+						<td>MEDICO</td>
+						<td>HERNANDEZ</td>
+						<td>CENDEJAS</td>
+						<td>ARMANDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1351914</td>
+						<td>622295</td>
+						<td>2014-02-06</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3F216973-C5A1-4C6E-A6DF-29C32B6AA6C2</td>
+						<td>MEDICO</td>
+						<td>HERNANDEZ</td>
+						<td>DE RUBIN</td>
+						<td>GABRIEL ULISES</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA-R</td>
+						<td>9146060</td>
+						<td>850138</td>
+						<td>2018-05-04</td>
+						<td>PUENTE DE PIEDRA 150 T2-CLINICA DE VASCULISACION</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>73828FA8-7D70-4BEB-836F-205772EC9808</td>
+						<td>MEDICO</td>
+						<td>HERNANDEZ</td>
+						<td>GUERRA</td>
+						<td>CHRISTIAN ABSALON</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>331258</td>
+						<td>822976</td>
+						<td>2019-01-04</td>
+						<td>CL COFAT CTRA A NVA ALEMANIA S/N</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>39868FF4-FF79-4388-93D9-0C5110991269</td>
+						<td>MEDICO</td>
+						<td>HINOJOSA</td>
+						<td>BECERRIL</td>
+						<td>CARLOS ARTURO</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>3206591</td>
+						<td>848076</td>
+						<td>2014-01-13</td>
+						<td>PUENTE DE PIEDRA 150 T2-818</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>720995AC-8174-4334-8DA5-B31E439B0320</td>
+						<td>MEDICO</td>
+						<td>ITURRIAGA</td>
+						<td>RAMIREZ</td>
+						<td>JOSE DE JESUS</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>655838</td>
+						<td>745552</td>
+						<td>2014-09-19</td>
+						<td>COSCOMATE 157</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3D51E20B-3501-4749-A885-F70CD63C538A</td>
+						<td>MEDICO</td>
+						<td>JARAMILLO</td>
+						<td>HERNANDEZ</td>
+						<td>HUMBERTO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1481766</td>
+						<td>745668</td>
+						<td>2014-01-28</td>
+						<td>OTOMIES NO. 120</td>
+						<td>EL TRUENITO</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>78C797A3-EC48-4C75-AD5E-2800ED2D4A5F</td>
+						<td>MEDICO</td>
+						<td>JIMENEZ</td>
+						<td>CALLADO</td>
+						<td>MARIA LETICIA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>8732298</td>
+						<td>2190025</td>
+						<td>2019-01-30</td>
+						<td>CALZ DE TLALPAN 5055</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8DC7934E-7605-4C84-BEE6-640537AE772B</td>
+						<td>MEDICO</td>
+						<td>JIMENEZ</td>
+						<td>CRISPIN</td>
+						<td>FERNANDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>2354129</td>
+						<td>823037</td>
+						<td>2019-01-04</td>
+						<td>AV INDEP SUR 2</td>
+						<td>HUIXTLA CENTRO</td>
+						<td>30640</td>
+						<td>HUIXTLA</td>
+						<td>CHIAPAS</td>
+						<td>08020001 - HUIXTLA</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>DCF040D9-1513-44EA-8DFC-A238ED2A5017</td>
+						<td>MEDICO</td>
+						<td>JOO</td>
+						<td>REYES</td>
+						<td>FERNANDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>399286</td>
+						<td>623548</td>
+						<td>2019-01-04</td>
+						<td>8 A NTE 65</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2E77164B-F9D3-45F2-8101-FE8F2B5A54CB</td>
+						<td>MEDICO</td>
+						<td>LEON</td>
+						<td>REY</td>
+						<td>CHRISTIAN CESAR</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>8924716</td>
+						<td>1695149</td>
+						<td>2018-07-31</td>
+						<td>CALZADA DE TLALPAN</td>
+						<td>TLALPAN CENTRO</td>
+						<td>14000</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022038 - ZP 22 TLALPAN CENTRO CP14000</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>52091917-0EE1-40B1-A148-46A1462E3664</td>
+						<td>MEDICO</td>
+						<td>LIZARDI</td>
+						<td>CERVERA</td>
+						<td>JAVIER</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1838693</td>
+						<td>747221</td>
+						<td>2014-01-15</td>
+						<td>PTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>281D82A3-39B7-4974-855F-3BC769BDC1A2</td>
+						<td>MEDICO</td>
+						<td>LLAMAS</td>
+						<td>MARTINEZ</td>
+						<td>JUAN CARLOS</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>5171157</td>
+						<td>873808</td>
+						<td>2017-12-29</td>
+						<td>YAQUIS NO. 74</td>
+						<td>TLALCOLIGIA</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>7768816E-D5FD-429B-9B83-8E7332E199B8</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>ALCAZAR</td>
+						<td>NORBERTO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>3186821</td>
+						<td>954688</td>
+						<td>2019-01-04</td>
+						<td>MANUEL NEGRETE 17</td>
+						<td>HUIXTLA CENTRO</td>
+						<td>30640</td>
+						<td>HUIXTLA</td>
+						<td>CHIAPAS</td>
+						<td>08020001 - HUIXTLA</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>786FEDD0-D34D-4780-8E19-37459FD1914A</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>LOPEZ</td>
+						<td>CHRISTIAN ANDREI</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>06367105</td>
+						<td>622570</td>
+						<td></td>
+						<td>AV LAS PALMAS NO 3</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>08236C25-2664-4CB3-8764-06F4CC115A88</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>MENDEZ</td>
+						<td>EDGARDO ERIC</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>2134088</td>
+						<td>747805</td>
+						<td>2014-01-16</td>
+						<td>PUENTE DE PIEDRA 150 SUITE 3</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>789C4220-9A74-479C-8F43-5CD30DE1113A</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>MENDEZ</td>
+						<td>YAHVE IVAN</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>8693128</td>
+						<td>1252424</td>
+						<td>2018-07-17</td>
+						<td>PUNTE DE PIEDRA 150 TORRE II SUITE 3</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3B05CF5B-D776-42C7-86F9-EC46A05BCFBA</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>MORENO</td>
+						<td>CUAUHTEMOC</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>537774</td>
+						<td>621264</td>
+						<td>2019-01-04</td>
+						<td>3 A OTE 41</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>AA2F23C4-3187-45F0-B821-F9D3AEC1B213</td>
+						<td>MEDICO</td>
+						<td>LOPEZ</td>
+						<td>ORGANISTA</td>
+						<td>SERGIO RAFAEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1838692</td>
+						<td>747877</td>
+						<td>2018-03-20</td>
+						<td>PUENTE DE PIEDRA #150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>EC63D7A5-3CAB-4177-8FC2-6EB273FF310A</td>
+						<td>MEDICO</td>
+						<td>MALOOF</td>
+						<td>ARZOLA</td>
+						<td>TERESA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>459595</td>
+						<td>847253</td>
+						<td>2019-01-04</td>
+						<td>6 A PTE 18</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>6572443E-042B-44B8-ABD3-FDA66F4AB1E5</td>
+						<td>MEDICO</td>
+						<td>MANZANO</td>
+						<td>ROBLEDA</td>
+						<td>MARIA DEL CARMEN</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>9680887</td>
+						<td>1252378</td>
+						<td>2018-05-04</td>
+						<td>PUENTE DE PIEDRA #150 CLINICA GASTRO</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0C6BEEE7-33E3-400F-A0B6-230FE06DF922</td>
+						<td>MEDICO</td>
+						<td>MARQUEZ</td>
+						<td>PINTADO</td>
+						<td>ERENDIRA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>629503</td>
+						<td>623559</td>
+						<td>2019-01-04</td>
+						<td>AV OCTAVA NTE 65</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>10A09575-50B1-498A-ADD4-CDBC57238301</td>
+						<td>MEDICO</td>
+						<td>MARTINEZ</td>
+						<td>GOMEZ</td>
+						<td>MARIA DE LOS ANGELES</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3165250</td>
+						<td>752647</td>
+						<td>2017-12-29</td>
+						<td>OTOMIES</td>
+						<td>EL TRUENITO</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C9D7C355-E1A7-4DE2-8B6E-F50DF6E58F4D</td>
+						<td>MEDICO</td>
+						<td>MARTINEZ</td>
+						<td>GOMEZ</td>
+						<td>ROBERTO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3740998</td>
+						<td>752649</td>
+						<td></td>
+						<td>AV JAVIER GOMEZ 5</td>
+						<td>AGRICOLA ORIENTAL</td>
+						<td>08500</td>
+						<td>IZTACALCO</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01009008 - ZP 09 AGRICOLA ORIENTALCP0850</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>E14886C2-29C5-4FBB-8F54-DEDC8428CB8E</td>
+						<td>MEDICO</td>
+						<td>MARTINEZ</td>
+						<td>VELAZQUEZ</td>
+						<td>URI OSWELIA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA-R</td>
+						<td>3246646</td>
+						<td>753273</td>
+						<td>2018-02-15</td>
+						<td>CEDRAL 96</td>
+						<td>EJIDOS DE SAN PEDRO MARTIR</td>
+						<td>14640</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022147 - ZP 22 EJIDO PEDRO MARTIR 1464</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>FCB58760-2A3D-491B-9775-261B0D991C8D</td>
+						<td>MEDICO</td>
+						<td>MEDINA</td>
+						<td>FRANCO</td>
+						<td>HERIBERTO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>0011403</td>
+						<td>749635</td>
+						<td>2018-01-04</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>07D09EA3-44A5-4793-B4D6-916D692A7E61</td>
+						<td>MEDICO</td>
+						<td>MELENDEZ</td>
+						<td>PONCE</td>
+						<td>NORMA AURORA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>1421651</td>
+						<td>749928</td>
+						<td>2014-06-17</td>
+						<td>PUENTE DE PIEDRA 150 Consultorio: 721. Torre II. SA©ptimo Piso. Hospital MA©dica Sur</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B7BF166F-1411-4A20-A177-741A8FE54529</td>
+						<td>MEDICO</td>
+						<td>MENDEZ</td>
+						<td>SANCHEZ</td>
+						<td>NAHUM</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1120091</td>
+						<td>750116</td>
+						<td>2014-01-16</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>1023485A-6BA3-450A-97FC-D93383993C7F</td>
+						<td>MEDICO</td>
+						<td>MERCADO</td>
+						<td>DIAZ</td>
+						<td>MIGUEL ANGEL</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>0672481</td>
+						<td>750505</td>
+						<td>2014-01-24</td>
+						<td>PUENTE DE PIEDRA NO 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>7F723233-97B0-4731-BFDE-136CDCB94A2A</td>
+						<td>MEDICO</td>
+						<td>MONTALVO</td>
+						<td>JAVE</td>
+						<td>EDUARDO ESTEBAN</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>4255002</td>
+						<td>1155337</td>
+						<td>2018-12-17</td>
+						<td>PUENTE DE PIEDRA 150 CLINICA GASTRO</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>51E97F8F-AAB4-4F91-BA5F-96D619C19663</td>
+						<td>MEDICO</td>
+						<td>MONTESINOS</td>
+						<td>HIDALGO</td>
+						<td>JULIO CESAR</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>1480522</td>
+						<td>845891</td>
+						<td>2019-01-04</td>
+						<td>2A AV NORTE 102</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B06AC8AE-0ECF-4613-8D0B-91F7BE233818</td>
+						<td>MEDICO</td>
+						<td>MONTUFAR</td>
+						<td>GOMEZ</td>
+						<td>JOSE SALVADOR TRINIDAD</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>227095</td>
+						<td>751553</td>
+						<td>2018-07-12</td>
+						<td>CALZ DE TLALPAN 5028</td>
+						<td>LA JOYA</td>
+						<td>14090</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022051 - ZP 22 LA JOYA CP14090</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3D5AEEE7-43BD-4825-8A44-B63D1201B69C</td>
+						<td>MEDICO</td>
+						<td>MORALES</td>
+						<td>MARTINEZ</td>
+						<td>ANA DOLORES</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3099071</td>
+						<td>859977</td>
+						<td>2019-01-04</td>
+						<td>OCTAVA SUR 1 ESQUINA CENTRAL PTE</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C8F126DD-646A-4537-AA35-A6257C898597</td>
+						<td>MEDICO</td>
+						<td>MORALES</td>
+						<td>MUNOZ</td>
+						<td>VIRGINIA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>950240</td>
+						<td>751940</td>
+						<td>2018-02-28</td>
+						<td>CALZ DE TLALPAN NO. 45115</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D73A9659-B0A2-41D9-B45D-31D3146AEC01</td>
+						<td>MEDICO</td>
+						<td>MORALES</td>
+						<td>RODRIGUEZ</td>
+						<td>SAMUEL OTHONIEL</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>3568457</td>
+						<td>992926</td>
+						<td>2014-03-03</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>F0111C0F-2250-4EDA-B97D-EEAB061013EF</td>
+						<td>MEDICO</td>
+						<td>MORAN</td>
+						<td>CONSUELOS</td>
+						<td>MIGUEL ANGEL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>0907222</td>
+						<td>751623</td>
+						<td>2014-02-21</td>
+						<td>MEDICA SUR T-2 NO. 611</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0EB54F43-513F-488B-9EC4-003254FBBC2F</td>
+						<td>MEDICO</td>
+						<td>MORENO</td>
+						<td>LINARES</td>
+						<td>ALVARO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>54674</td>
+						<td>750975</td>
+						<td>2017-12-29</td>
+						<td>PALMA 40</td>
+						<td>SAN ANDRES TOTOLTEPEC</td>
+						<td>14400</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022104 - ZP 22 ANDRES TOTOLTEPEC 14400</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>139A2713-613C-43B3-8B5B-DBFB571C7808</td>
+						<td>MEDICO</td>
+						<td>NAKAMURA</td>
+						<td>ESCOBEDO</td>
+						<td>GERARDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3431132</td>
+						<td>845465</td>
+						<td>2019-01-04</td>
+						<td>19 A SUR ENTRE 28 Y 30 OTE 502</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>463A0CA9-0EF5-4762-97D4-4AF7C988ED3B</td>
+						<td>MEDICO</td>
+						<td>NAVARRETE</td>
+						<td>RAMIREZ</td>
+						<td>GABRIELA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7182982</td>
+						<td>1587583</td>
+						<td>2017-01-01</td>
+						<td>CEDRAL</td>
+						<td>EJIDOS DE SAN PEDRO MARTIR</td>
+						<td>14640</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022147 - ZP 22 EJIDO PEDRO MARTIR 1464</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>47761BE2-6DA3-47BF-9359-FB17759DC1FB</td>
+						<td>MEDICO</td>
+						<td>NINO</td>
+						<td>CRUZ</td>
+						<td>JOSE ANTONIO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>3272848</td>
+						<td>874767</td>
+						<td>2017-03-01</td>
+						<td>PUENTE DE PIEDRA 150 623</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>5526528D-AC55-4641-BD81-1E38F63648AC</td>
+						<td>MEDICO</td>
+						<td>OLGUIN</td>
+						<td>SANCHEZ</td>
+						<td>JOSE FRANCISCO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>4257931</td>
+						<td>2520431</td>
+						<td>2018-03-08</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>E636F779-F2C8-494C-BE05-81319BEFFB5B</td>
+						<td>MEDICO</td>
+						<td>ORNELAS</td>
+						<td>ARROYO</td>
+						<td>YARETH SOFIA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>9177490</td>
+						<td>1565065</td>
+						<td>2017-07-19</td>
+						<td>PUENTE DE PIEDRA #150 CLINICA GASTRO</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C47FD6A1-C164-4142-920B-06AEB034A22A</td>
+						<td>MEDICO</td>
+						<td>ORTEGA</td>
+						<td>GRILLASCA</td>
+						<td>TERESITA ENRIQUETA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1483835</td>
+						<td>878595</td>
+						<td>2019-01-04</td>
+						<td>8 A SUR ESQ 4 A PTE 5</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C3EB5F13-7226-448A-922B-ABF5BFF7498A</td>
+						<td>MEDICO</td>
+						<td>ORTIZ</td>
+						<td>LOPEZ</td>
+						<td>LAURA JAEL DEL CARMEN</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>8567258</td>
+						<td>1252841</td>
+						<td>2017-07-19</td>
+						<td>PUENTE DE PIEDRA 150 T2-808</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>975A7244-772F-4CB8-9B18-AE4F448F2F6B</td>
+						<td>MEDICO</td>
+						<td>OSNAYA</td>
+						<td>TELLEZ</td>
+						<td>KARINA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3831073</td>
+						<td>755078</td>
+						<td>2017-12-29</td>
+						<td>AV. 5 DE MAYO ESQ ENSENANZA NO. 7</td>
+						<td>EJIDOS DE SAN PEDRO MARTIR</td>
+						<td>14640</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022147 - ZP 22 EJIDO PEDRO MARTIR 1464</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0ED724C8-E09F-4DD2-B9E5-D588328EB608</td>
+						<td>MEDICO</td>
+						<td>PADILLA</td>
+						<td>GONZALEZ</td>
+						<td>MANUEL</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0471431</td>
+						<td>755295</td>
+						<td>2014-02-10</td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>CC5FC861-83E8-4B8B-9710-A892A70FA10B</td>
+						<td>MEDICO</td>
+						<td>PARISI</td>
+						<td>ONOFRIETTI</td>
+						<td>ROBERTO FELIX</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0423973</td>
+						<td>755668</td>
+						<td>2014-01-13</td>
+						<td>PUENTE DE PIEDRA C-401 T-1 NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3F8C0173-7A62-450B-B628-D862FEB14827</td>
+						<td>MEDICO</td>
+						<td>PERALTA</td>
+						<td>ELIZONDO</td>
+						<td>ISMAEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>432543</td>
+						<td>756064</td>
+						<td>2017-12-29</td>
+						<td>QUICHES 77</td>
+						<td>SANTA URSULA XITLA</td>
+						<td>14420</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022111 - ZP 22 LA MESA CP14420</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>1635626C-5FDB-4553-8DE6-AA9368528FC4</td>
+						<td>MEDICO</td>
+						<td>PEREZ</td>
+						<td>CIGARROA</td>
+						<td>FERNANDO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>493297</td>
+						<td>863178</td>
+						<td>2019-01-04</td>
+						<td>AV HGO 1939</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C82379BD-144A-43AE-A30C-C2C0FCA33087</td>
+						<td>MEDICO</td>
+						<td>PEREZ</td>
+						<td>DIAZ</td>
+						<td>JORGE</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7932839</td>
+						<td>1931130</td>
+						<td>2017-01-01</td>
+						<td>AXOXCOTLE 33</td>
+						<td>SAN MIGUEL XICALCO</td>
+						<td>14490</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022130 - ZP 22 SAN MIGUEL XICALCO 1449</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C275D510-E14A-47BF-828A-BF17A36ECA3C</td>
+						<td>MEDICO</td>
+						<td>PEREZNUNEZ</td>
+						<td>ZAMORA</td>
+						<td>HELGA</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7237339</td>
+						<td>1105829</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>AE439987-861E-4307-883E-2294B3E85984</td>
+						<td>MEDICO</td>
+						<td>PINA</td>
+						<td>LOPEZ</td>
+						<td>JEANETE</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7010115</td>
+						<td>1000234615</td>
+						<td>2018-08-01</td>
+						<td>CALZ DE TLALPAN 5008</td>
+						<td>LA JOYA</td>
+						<td>14090</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022051 - ZP 22 LA JOYA CP14090</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>026F8C47-4B36-405B-9684-F76C1A696046</td>
+						<td>MEDICO</td>
+						<td>PINON</td>
+						<td>LOZANO</td>
+						<td>ROBERTO</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>0158187</td>
+						<td>756869</td>
+						<td>2014-01-17</td>
+						<td>PUENTE DE PIEDRA 150 T1</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>91B9C197-F6C6-46DB-865E-C75D6EC95033</td>
+						<td>MEDICO</td>
+						<td>POSADAS</td>
+						<td>NAVA</td>
+						<td>ALEJANDRO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>7819</td>
+						<td></td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3B5346A2-D7E7-4805-92C2-EDA0FC8B52EE</td>
+						<td>MEDICO</td>
+						<td>PULIDO</td>
+						<td>CEJUDO</td>
+						<td>ABRAHAM</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>1607333</td>
+						<td>757434</td>
+						<td>2014-01-13</td>
+						<td>PUENTE DE PIEDRA NO. 150-506 TORRE-1 NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0F76B65B-D0F4-4058-9013-D7B2EB0B0C6B</td>
+						<td>MEDICO</td>
+						<td>QUINTERO</td>
+						<td>AGUILAR</td>
+						<td>GUADALUPE</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>7288329</td>
+						<td>1411328</td>
+						<td>2019-01-04</td>
+						<td>7 OTE 44</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3C8582FD-1A84-4329-8227-8A4ECCB4D3C1</td>
+						<td>MEDICO</td>
+						<td>RAJME</td>
+						<td>HAJE</td>
+						<td>VICTORIA ALEJANDRA</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0695058</td>
+						<td>757714</td>
+						<td>2014-11-05</td>
+						<td>PUENTE DE PIEDRA 150 CONS 332 T1</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>42856CD9-AD2B-4FCA-8A78-1D56B2CA0BD4</td>
+						<td>MEDICO</td>
+						<td>RAMOS</td>
+						<td>LOPEZ</td>
+						<td>JOSE ANGEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3618037</td>
+						<td>845482</td>
+						<td>2019-01-04</td>
+						<td>AV 5TA OTE 70</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>BD661925-7600-4F20-81C7-A7404D94C791</td>
+						<td>MEDICO</td>
+						<td>REYES</td>
+						<td>LOO</td>
+						<td>RICARDO</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>5164052</td>
+						<td>1139603</td>
+						<td>2019-01-04</td>
+						<td>AV LAS PALMAS NO 3</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>70A20A88-4424-4D26-9497-564FF20BA6D1</td>
+						<td>MEDICO</td>
+						<td>REYNOSO</td>
+						<td>ARGUETA</td>
+						<td>EDGAR</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4831334</td>
+						<td>759054</td>
+						<td>2017-01-25</td>
+						<td>PUENTE DE PIEDRA 15</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B7A2B902-AE42-4D1D-801E-58B2BCA91671</td>
+						<td>MEDICO</td>
+						<td>RIVERO</td>
+						<td>LOPEZ</td>
+						<td>CARLOS ALONSO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>0847379</td>
+						<td>759548</td>
+						<td>2014-01-14</td>
+						<td>PUENTE DE PIEDRA C-805 T-1 NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>4C05A4CD-C9E3-44B8-81D6-2F6BF20A6F61</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>DIAZ</td>
+						<td>JOSE LUIS</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>7605207</td>
+						<td>2443566</td>
+						<td>2018-05-08</td>
+						<td>PUENTE DE PIEDRA #150 CLINICA GASTRO</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>FA585C19-0E7A-47AD-AD81-5985DCB77A1C</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>LEAL</td>
+						<td>GUSTAVO ARTURO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1446687</td>
+						<td>758176</td>
+						<td>2014-01-15</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>71F43491-5B6A-446C-B543-8722B55E4815</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>MORENO</td>
+						<td>RAYMUNDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1753260</td>
+						<td>628021</td>
+						<td>2019-01-04</td>
+						<td>CTRA A NVA ALEMANIA KM 3</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>77B887FF-E1C9-4806-B6D3-2396262322D1</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>TORIZ</td>
+						<td>FELIPE</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1031175</td>
+						<td>845476</td>
+						<td>2019-01-04</td>
+						<td>CLL 5A OTE 23</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>7184579C-E619-44CD-B7AD-4E1FDB6E687F</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>TREJO</td>
+						<td>JUAN MIGUEL</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA-R</td>
+						<td>3270007</td>
+						<td>758475</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA 150 CLINICA VASCULAR</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0C6BACEE-753F-4DFA-AAF3-1DFB4C51605C</td>
+						<td>MEDICO</td>
+						<td>RODRIGUEZ</td>
+						<td>VARELA</td>
+						<td>MARIA GREGORIA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>0572062</td>
+						<td>758485</td>
+						<td>2014-01-21</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2AB028D7-438E-4375-9EB0-28EE46FC7530</td>
+						<td>MEDICO</td>
+						<td>ROJAS</td>
+						<td>MENDOZA</td>
+						<td>FERNANDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1826717</td>
+						<td>760083</td>
+						<td>2014-01-16</td>
+						<td>CALLE PUENTE DE PIEDRA NO 150 INT 0 PISO 6</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>4E1A26C5-AC5E-4AB5-A472-685EFB8A65AE</td>
+						<td>MEDICO</td>
+						<td>ROMERO</td>
+						<td>HERNANDEZ</td>
+						<td>TEODORO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>1588402</td>
+						<td>759676</td>
+						<td>2014-01-14</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>7391F993-10A3-4E5D-B10C-CEA831B19E53</td>
+						<td>MEDICO</td>
+						<td>ROSARIO</td>
+						<td>OSNAYA</td>
+						<td>ARIEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4356432</td>
+						<td>760335</td>
+						<td>2017-12-29</td>
+						<td>DILIGENCIAS 146</td>
+						<td>SAN PEDRO MARTIR</td>
+						<td>14650</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022154 - ZP 22 SAN PEDRO MARTIR CP1465</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0B604852-125D-4B63-9E53-C10CE6A0F16D</td>
+						<td>MEDICO</td>
+						<td>RUIZ</td>
+						<td>VILLEDA</td>
+						<td>ABEL ALEJANDRO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>6986426</td>
+						<td>1161576</td>
+						<td>2019-01-04</td>
+						<td>CLL 9 S/N A AV NTE ESQ 1</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>37811B04-AB9B-4855-AAA6-4A2BBD9B8619</td>
+						<td>MEDICO</td>
+						<td>SANCHEZ</td>
+						<td>AVILA</td>
+						<td>JUAN FRANCISCO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>3181287</td>
+						<td>763842</td>
+						<td>2014-01-22</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>79779C59-980B-4A3A-9961-8D5FE05E4F74</td>
+						<td>MEDICO</td>
+						<td>SANCHEZ</td>
+						<td>BRAVO</td>
+						<td>ARACELI ELIZABETH</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>5499549</td>
+						<td>1587826</td>
+						<td>2019-01-15</td>
+						<td>AV SAN FERNANDO 547</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D08C1259-EFFD-487F-A344-0DCB7CDE8513</td>
+						<td>MEDICO</td>
+						<td>SANCHEZ</td>
+						<td>CORTES</td>
+						<td>EDUARDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1680373</td>
+						<td>763923</td>
+						<td>2014-03-07</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>44C80DB6-017E-4DE1-A2FD-08595EE675B8</td>
+						<td>MEDICO</td>
+						<td>SANCHEZ</td>
+						<td>HERNANDEZ</td>
+						<td>ROBERTO LEONARDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3272619</td>
+						<td>764108</td>
+						<td></td>
+						<td>OTOMIES</td>
+						<td>TLALCOLIGIA</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>53907E5B-0F64-4F22-A6EF-3373B00A1066</td>
+						<td>MEDICO</td>
+						<td>SANCHEZ</td>
+						<td>SANCHEZ</td>
+						<td>EVELIO FIRSEY</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>3211675</td>
+						<td>960763</td>
+						<td>2019-01-04</td>
+						<td>ALTAIR 4</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B0B5D64B-8F03-4480-832A-0968E5EA6428</td>
+						<td>MEDICO</td>
+						<td>SANTIBANEZ</td>
+						<td>MORENO</td>
+						<td>GUILLERMO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3223528</td>
+						<td>762499</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2881A4D3-D359-409E-BE07-A0B60A265C7E</td>
+						<td>MEDICO</td>
+						<td>SANTOS</td>
+						<td>BLANQUICET</td>
+						<td>MARTIN EMILIO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>3624071</td>
+						<td>628026</td>
+						<td>2019-01-04</td>
+						<td>CLL 2A OTE 27 PISO PB</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>57B72AE9-727C-4EDC-8E66-BB8C289FDBE3</td>
+						<td>MEDICO</td>
+						<td>SEPTIEN</td>
+						<td>STUTE</td>
+						<td>LUIS ALBRECHT</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>4452764</td>
+						<td>874879</td>
+						<td>2015-11-13</td>
+						<td>PUENTE DE PIEDRA 15</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>4BAAEFFE-8F7B-485C-A8B9-1A39660A31E3</td>
+						<td>MEDICO</td>
+						<td>SEPULVEDA</td>
+						<td>DELGADO</td>
+						<td>JESUS</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>8475938</td>
+						<td>2182024</td>
+						<td>2019-04-14</td>
+						<td>2DA AV NORTE 102 (CEDIS)</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>6D0BA95A-735A-4974-9FBC-4E8F29B1F10F</td>
+						<td>MEDICO</td>
+						<td>SERNA</td>
+						<td>TRUJILLO</td>
+						<td>FELIPE</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>0160993</td>
+						<td>762821</td>
+						<td>2017-12-29</td>
+						<td>JOHN F KENNEDY 84 C</td>
+						<td>ISIDRO FABELA</td>
+						<td>14030</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022042 - ZP 22 ISIDRO FABELA CP14030</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>A68E0E63-2622-4A8B-99D9-736D019B4AA0</td>
+						<td>MEDICO</td>
+						<td>SERRANO</td>
+						<td>ALDERETE</td>
+						<td>RICARDO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>6356</td>
+						<td></td>
+						<td></td>
+						<td>OTOMIES</td>
+						<td>TLALCOLIGIA</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>3579BE54-506B-4D88-9D87-53CADF1FB959</td>
+						<td>MEDICO</td>
+						<td>SILVA</td>
+						<td>CAZARES</td>
+						<td>JORGE HUGO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>0088777</td>
+						<td>763066</td>
+						<td>2014-02-06</td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>A2993381-B863-4299-A987-762B4EC9A2D8</td>
+						<td>MEDICO</td>
+						<td>SILVA</td>
+						<td>ORTIZ</td>
+						<td>CARLOS TOMAS</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>3309811</td>
+						<td>763114</td>
+						<td>2017-12-29</td>
+						<td>YAQUIS 74</td>
+						<td>TLALCOLIGIA</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2991A2BE-2572-4436-B921-8EE5CE8A355B</td>
+						<td>MEDICO</td>
+						<td>SOLIS</td>
+						<td>AGUILAR</td>
+						<td>RUPERTO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>968640</td>
+						<td>845485</td>
+						<td>2019-01-04</td>
+						<td>5 A OTE 32</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>EA001C18-D92A-461B-93B5-54EE70088738</td>
+						<td>MEDICO</td>
+						<td>SOLIS</td>
+						<td>JIMENEZ</td>
+						<td>DOMINGO AMINAIN</td>
+						<td>CIRUGIA</td>
+						<td>AAA</td>
+						<td>3176242</td>
+						<td>623636</td>
+						<td>2019-01-04</td>
+						<td>CTRAL NTE 138</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>121C8672-43BB-4DF0-899D-33B697AC1A0C</td>
+						<td>MEDICO</td>
+						<td>TANIMOTO</td>
+						<td>LICONA</td>
+						<td>MIGUEL ANGEL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1961939</td>
+						<td>764632</td>
+						<td>2014-01-08</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>013CBD08-F070-4F80-83B9-2AFAE3CA4EA7</td>
+						<td>MEDICO</td>
+						<td>TAPIA</td>
+						<td>ROSETE</td>
+						<td>JOSE GABRIEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>534218</td>
+						<td>764683</td>
+						<td>2017-12-29</td>
+						<td>PIEDRA FILOSOFAL 54</td>
+						<td>ISIDRO FABELA</td>
+						<td>14030</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022042 - ZP 22 ISIDRO FABELA CP14030</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>74CC4F3B-6B78-45E7-B976-9CD4D3E86437</td>
+						<td>MEDICO</td>
+						<td>TELLEZ</td>
+						<td>AVILA</td>
+						<td>FELIX IGNACIO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>6097350</td>
+						<td>764765</td>
+						<td>2014-03-05</td>
+						<td>PUENTE DE PIEDRA 15</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8B27816A-7E4B-4A1E-A914-03E1B8C30875</td>
+						<td>MEDICO</td>
+						<td>TOACHE</td>
+						<td>HERNANDEZ</td>
+						<td>MIGUEL ANGEL</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>1691231</td>
+						<td>764978</td>
+						<td>2017-12-29</td>
+						<td>TOTONACA NO. 38</td>
+						<td>TLALCOLIGIA</td>
+						<td>14430</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022116 - ZP 22 EL TRENITO CP14430</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8C2DC8E6-AF1B-4F8A-8653-EDD490B33192</td>
+						<td>MEDICO</td>
+						<td>TOLEDANO</td>
+						<td>ALFARO</td>
+						<td>RODOLFO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>597820</td>
+						<td>623641</td>
+						<td>2019-01-16</td>
+						<td>9A PONIENTE</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>ED98A6A5-FC69-41E8-9E36-4A6B116D803F</td>
+						<td>MEDICO</td>
+						<td>TOLENTINO</td>
+						<td>GALVAN</td>
+						<td>ERIK MILTON</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA-R</td>
+						<td>3772798</td>
+						<td>765032</td>
+						<td>2017-12-29</td>
+						<td>CEDRAL MZA 89 LT 4</td>
+						<td>EJIDOS DE SAN PEDRO MARTIR</td>
+						<td>14640</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022147 - ZP 22 EJIDO PEDRO MARTIR 1464</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>B6E60300-DE38-4F58-87E7-4D049FAAF9A4</td>
+						<td>MEDICO</td>
+						<td>TORRES</td>
+						<td>VILLALOBOS</td>
+						<td>GONZALO MANUEL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>3371727</td>
+						<td>1071143</td>
+						<td>2014-03-26</td>
+						<td>PUENTE DE PIEDRA 150 6 607</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>17EA8F60-A328-499D-8EDD-1D459DCF9CAB</td>
+						<td>MEDICO</td>
+						<td>ULLOA</td>
+						<td>LUGO</td>
+						<td>SERGIO ROLANDO</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>150799</td>
+						<td>765739</td>
+						<td>2014-10-13</td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>32308BE5-8328-4F97-A172-46933F6A6EA0</td>
+						<td>MEDICO</td>
+						<td>USCANGA</td>
+						<td>DOMINGUEZ</td>
+						<td>LUIS FEDERICO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>0510008</td>
+						<td>765888</td>
+						<td>2014-01-08</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>C9C4AD8E-E0F9-46CF-A54E-CC9ADD2614B9</td>
+						<td>MEDICO</td>
+						<td>VALDES</td>
+						<td>GALAN</td>
+						<td>FEDERICO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>823522</td>
+						<td>845489</td>
+						<td>2019-01-04</td>
+						<td>2 A NTE 64</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>2DADD34D-87A0-45E2-9245-564CBF3E6005</td>
+						<td>MEDICO</td>
+						<td>VALDOVINOS</td>
+						<td>ANDRACA</td>
+						<td>FRANCISCO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>1620739</td>
+						<td>766072</td>
+						<td>2018-03-08</td>
+						<td>PUENTE DE PIEDRA 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>599ABADD-4F64-4667-9DF0-F29266975787</td>
+						<td>MEDICO</td>
+						<td>VALDOVINOS</td>
+						<td>DIAZ</td>
+						<td>MIGUEL ANGEL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>0737948</td>
+						<td>766074</td>
+						<td>2014-01-22</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>0EBC8D93-A620-44D6-B808-99FC252B80E4</td>
+						<td>MEDICO</td>
+						<td>VALDOVINOS</td>
+						<td>GARCIA</td>
+						<td>LUIS RAUL</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>9978454</td>
+						<td>1012811</td>
+						<td>2017-10-20</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>42C609E4-E964-40FD-8BD3-86BC6609B1DD</td>
+						<td>MEDICO</td>
+						<td>VERGARA</td>
+						<td>FERNANDEZ</td>
+						<td>OMAR</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>5397170</td>
+						<td>868225</td>
+						<td>2014-09-03</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>51BCBE37-D3CD-4935-AA88-E31DF994F601</td>
+						<td>MEDICO</td>
+						<td>VIDAL</td>
+						<td>VALLEJO</td>
+						<td>ABEL ALBERTO</td>
+						<td>ANGIOLOGIA</td>
+						<td>AAA</td>
+						<td>0847416</td>
+						<td>767141</td>
+						<td>2014-01-20</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>D0470647-A20E-4361-BA2D-C84B03691163</td>
+						<td>MEDICO</td>
+						<td>VIDAL-TAMAYO</td>
+						<td>RAMIREZ</td>
+						<td>RAFAEL</td>
+						<td>MEDICINA INTERNA</td>
+						<td>AAA</td>
+						<td>2251303</td>
+						<td>767137</td>
+						<td>2014-02-17</td>
+						<td>PUENTE DE PIEDRA 150 Consultorio: 511. Torre II. Quinto Piso. Hospital MA©dica Sur</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>8873AE26-CC6D-4ADA-9E6E-6D5AB238F72E</td>
+						<td>MEDICO</td>
+						<td>VIESCA</td>
+						<td>MURIEL</td>
+						<td>ALBERTO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4110224</td>
+						<td>767158</td>
+						<td></td>
+						<td>PUENTE DE PIEDRA</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>A1FED818-18DB-4D3A-AA9A-7F461D3F8023</td>
+						<td>MEDICO</td>
+						<td>YAMAMOTO</td>
+						<td>FURUSHO</td>
+						<td>JESUS KAZUO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA-R</td>
+						<td>2437257</td>
+						<td>688291</td>
+						<td>2014-01-22</td>
+						<td>PUENTE DE PIEDRA NO. 150</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>2</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>822720FC-0FD1-462B-9801-FFC37DFBE4E3</td>
+						<td>MEDICO</td>
+						<td>ZAMORA</td>
+						<td>NAVA</td>
+						<td>LUIS EDUARDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>6982328</td>
+						<td>768400</td>
+						<td>2017-04-17</td>
+						<td>PUENTE DE PIEDRA 150 CONS 330 T1</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>27F5E02D-197E-4829-95D8-502992DFD884</td>
+						<td>MEDICO</td>
+						<td>ZARAGOZA</td>
+						<td>CARRILLO</td>
+						<td>MIGUEL NIVARDO</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>355641</td>
+						<td>845493</td>
+						<td>2019-01-04</td>
+						<td>CLL CTRAL OTE 67</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>F8E6EC5A-3FCB-4C1F-82DB-0A72CAEC5EA3</td>
+						<td>MEDICO</td>
+						<td>ZAVALA</td>
+						<td>ROMERO</td>
+						<td>SAGRARIO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>4861501</td>
+						<td>726406</td>
+						<td>2018-04-20</td>
+						<td>COAPA 9 INT. 205</td>
+						<td>TORIELLO GUERRA</td>
+						<td>14050</td>
+						<td>TLALPAN</td>
+						<td>CIUDAD DE MEXICO</td>
+						<td>01022047 - ZP 22 TORIELLO GUERRA CP14050</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>359E50CC-79B1-4382-BF3F-085428C83306</td>
+						<td>MEDICO</td>
+						<td>ZENTENO</td>
+						<td>HERNANDEZ</td>
+						<td>ALBA GABRIELA</td>
+						<td>GASTROENTEROLOGIA</td>
+						<td>AAA</td>
+						<td>6442396</td>
+						<td>1168173</td>
+						<td>2019-01-04</td>
+						<td>2 NORTE 102</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+					<tr>
+						<td>4005</td>
+						<td>1F5879B6-00D0-4537-900E-549A58765D17</td>
+						<td>MEDICO</td>
+						<td>ZENTENO</td>
+						<td>SOL</td>
+						<td>ROMEO ANTONIO</td>
+						<td>MEDICINA GENERAL</td>
+						<td>AAA</td>
+						<td>444304</td>
+						<td>919695</td>
+						<td>2019-01-04</td>
+						<td>8 NTE 61</td>
+						<td>TAPACHULA CENTRO</td>
+						<td>30700</td>
+						<td>TAPACHULA</td>
+						<td>CHIAPAS</td>
+						<td>08005002 - TAPACHULA CENTRO</td>
+						<td>1</td>
+						<td>0</td>
+						<td>ACTIVO</td>
+					</tr>
+			</tbody>
+		</table>
+	</body>
+</head>

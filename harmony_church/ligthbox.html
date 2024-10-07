@@ -1,0 +1,283 @@
+﻿<html>
+	<head>
+		<meta charset="utf-8">
+	<title></title>
+	<link href="jquery-ui.css" rel="stylesheet">
+		<script>
+			function showLightbox() {
+				document.getElementById('over').style.display='block';
+				document.getElementById('fade').style.display='block';
+			}
+			function hideLightbox() {
+				document.getElementById('over').style.display='none';
+				document.getElementById('fade').style.display='none';
+			}
+		</script>
+		<style type="text/css">
+			#tabs{
+				font-family: Arial;
+				font-size: 12px;
+			}
+			
+			#tblRepresentantes, #tblPlan, #tblVisitas, #tblMultimedia, #tblHorario {
+				font-family: Arial;
+				font-size: 12px
+			}
+			
+			#tblRepresentantes thead, #tblPlan thead, #tblVisitas thead, #tblMultimedia thead{
+				font-weight: bold;
+				font-size: 14px;
+				color: #FFFFFF;
+				background: gray;
+			}
+			
+			.negrita{
+				font-weight: bold;
+				
+			}
+			
+			.tablas{
+				font-family: Arial;
+				font-size: 12px;
+			}
+			
+			.titulo{
+				font-family: Arial;
+				font-size: 14px;
+				color: #FFFFFF;
+				background: gray;
+				font-weight: bold;
+			}
+			
+			.fadebox {
+				display: none;
+				position: absolute;
+				top: 0%;
+				left: 0%;
+				width: 100%;
+				height: 100%;
+				background-color: black;
+				z-index:1001;
+				-moz-opacity: 0.6;
+				opacity:.6;
+				filter: alpha(opacity=60);
+			}
+			.overbox {
+				display: none;
+				position: absolute;
+				top: 15%;
+				left: 15%;
+				width: 80%;
+				height: 70%;
+				z-index:1002;
+				overflow: auto;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="over" class="overbox">
+			<div style="width:1000px;height:400px;background-color:white;">
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">Información de la persona</a></li>
+						<li><a href="#tabs-2">Reprentantes</a></li>
+						<li><a href="#tabs-3">Plan</a></li>
+						<li><a href="#tabs-4">Visitas</a></li>
+						<li><a href="#tabs-5">Multimedia</a></li>
+						<li><a href="#tabs-6">Muestras/Material</a></li>
+						<li><a href="#tabs-7">Horario de trabajo</a></li>
+					</ul>
+					<div id="tabs-1">
+						<table width="100%" border="0" class="tablas">
+								<tr>
+									<td colspan="2" class="titulo">
+										Informacióin de la persona
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Apellido Paterno:
+									</td>
+									<td>
+										López
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Apellido Materno
+									</td>
+									<td>
+										Martínez
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Nombre:
+									</td>
+									<td>
+										Maria Concepcion
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Sexo:
+									</td>
+									<td>
+										Femenino
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Esp Primaria:
+									</td>
+									<td>
+										MEDICINA GENERAL
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Sub Especialidad:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Pacientes por semana
+									</td>
+									<td>
+										<select id="lstPacientesSemana">
+											<option>1-25</option>
+											<option>26-50</option>
+											<option>51-75</option>
+											<option>más de 75</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Honorarios:
+									</td>
+									<td>
+										<select id="lstHonorarios">
+											<option>Súper altos</option>
+											<option>Altos</option>
+											<option>Medios</option>
+											<option>Bajos</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Edad:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Categoría:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Cédula:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Frecuencia:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Dificultad de la visita:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Lider de opinión:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Botiquin:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Iguala:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Campo abierto 1:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Campo abierto 2:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class='negrita'>
+										Campo abierto 3:
+									</td>
+									<td>
+										
+									</td>
+								</tr>
+							</table>
+					</div>
+					<div id="tabs-2">
+					
+					</div>
+					<div id="tabs-3">
+					
+					</div>
+				</div>
+			</div>
+			<a href="javascript:hideLightbox();">HideLightBox</a>
+		</div>
+		<div id="fade" class="fadebox">&nbsp;</div>
+		<a href="javascript:showLightbox();">Show LightBox</a>
+<a href="javascript:hideLightbox();">HideLightBox</a>
+		<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+
+$( "#tabs" ).tabs();
+
+</script>
+	</body>
+</html>

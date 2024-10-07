@@ -1,0 +1,410 @@
+<?php
+	set_time_limit(0);
+	//ini_set("memory_limit", "2056M");
+	/*** listado de medicos ***/
+	include "../conexion.php";
+	$buscar=array(chr(13).chr(10), "\r\n", "\n", "\r");
+	$reemplazar=array(" ", " ", " ", " ");
+	require ("../vendor/autoload.php");
+	use PhpOffice\PhpSpreadsheet\Spreadsheet;
+	use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+	
+	$tamanio = array(1,4,4,4,2,2,2,2,3,4,6,2,2,2,4,4,2,3,3,2,2,3,3,2,2,2,2,2,2,2,2,2,2,1,4,2,4,2,4,3,2,2,2,2,2,2,5,2,2,2,2,1,2,2,2,2,2,2,1,2,2,2,1,2,3,2,2,2,2,2,3,2,2,2,3,2,2,2,1,2,1,2,1,2,1,2,1,2,1,2,2,2);
+	$tam = array(100,350,350,150,150,200,250,150,600,600, 600,700,900,750,600,600,600,600,600); 
+	$registrosPorPagina = 20;
+
+	$ids = (substr($_POST['hdnIDSListado'], -1) == ',') ? str_replace(",","','",trim( $_POST['hdnIDSListado'], ",")) : $_POST['hdnIDSListado'] ;
+	$tipo = $_POST['hdnTipoListado'];
+	if(isset($_POST['pagina']) && $_POST['pagina'] != ''){
+		$numPagina = $_POST['pagina'];
+	}else{
+		$numPagina = 1;
+	}
+	
+	if(isset($_POST['hdnEstatusListado']) && $_POST['hdnEstatusListado'] != ''){
+		$estatus = $_POST['hdnEstatusListado'];
+	}else{
+		$estatus = '';
+	}
+	
+	$qMedicos = "DECLARE @Encuesta as VARCHAR(36)
+		DECLARE @Pregunta1 as VARCHAR(36)
+		DECLARE @Pregunta2 as VARCHAR(36)
+		DECLARE @Pregunta3 as VARCHAR(36)
+		DECLARE @Pregunta4 as VARCHAR(36)
+		DECLARE @Pregunta5 as VARCHAR(36)
+		DECLARE @Pregunta6 as VARCHAR(36)
+		DECLARE @Pregunta7 as VARCHAR(36)
+		DECLARE @Pregunta8 as VARCHAR(36)
+		DECLARE @Pregunta9 as VARCHAR(36)
+		DECLARE @Pregunta10 as VARCHAR(36)
+		DECLARE @Pregunta11 as VARCHAR(36)
+		 
+		SET @Encuesta='23E03DB9-F279-43A3-8A39-635A2C818132'
+		SET @Pregunta1=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=1)
+		SET @Pregunta2=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=2)
+		SET @Pregunta3=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=3)
+		SET @Pregunta4=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=4)
+		SET @Pregunta5=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=5)
+		SET @Pregunta6=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=6)
+		SET @Pregunta7=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=7)
+		SET @Pregunta8=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=8)
+		SET @Pregunta9=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=9)
+		SET @Pregunta10=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=10)
+		SET @Pregunta11=(select SURVEY_QUESTIONS_SNR from SURVEY_QUESTIONS where REC_STAT=0 and SURVEY_SNR=@Encuesta and SORT_NUM=11)
+		 
+		 
+		Select 
+		cl.name as Linea, 
+		upper(U.lname)+' '+upper(U.fname) as Representante, 
+		'{'+CAST(P.pers_snr AS VARCHAR(36))+'}' as 'Código Médico', 
+		upper(P.lname) as Paterno, 
+		upper(P.MOTHERS_LNAME) as Materno, 
+		upper(P.fname) as Nombre, 
+		upper(S.name) as Nombre_Encuesta,
+		cast(cast(SAnsw.date as DATE) as nvarchar(10)) as Fecha_Aplicacion,
+		/*cast(SAnsw.time as nvarchar(10)) as Hora_Aplicacion,*/
+		(CASE WHEN Resp1.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA1.name ELSE Resp1.ANSWER_STRING END) as '¿CUAL ES LA RAZON PRINCIPAL POR LA QUE RECOMIENDAS WATERPIK A TUS PACIENTES?', 
+		(CASE WHEN Resp2.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA2.name ELSE Resp2.ANSWER_STRING END) as '¿POR QUE CREES QUE TUS PACIENTES SI COMPRARIAN UN IRRIGADOR BUCAL?', 
+		(CASE WHEN Resp3.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA3.name ELSE Resp3.ANSWER_STRING END) as '¿CUALES SON LOS ATRIBUTOS PRINCIPALES QUE BUSCAS EN UN IRRIGADOR BUCAL?', 
+		(CASE WHEN Resp4.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA4.name ELSE Resp4.ANSWER_STRING END) as '¿QUE HERRAMIENTAS TE AYUDARIAN A CONVENCER A TU PACIENTE DE USAR UN IRRIGADOR BUCAL?', 
+		(CASE WHEN Resp5.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA5.name ELSE Resp5.ANSWER_STRING END) as 'DE LOS PACIENTES A LOS QUE RECOMIENDAS WATERPIK, ¿CUALES SON LAS PRINCIPALES RAZONES POR LAS QUE NO LO COMPRAN?', 
+		(CASE WHEN Resp6.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA6.name ELSE Resp6.ANSWER_STRING END) as '¿CUAL CREES ES EL CANAL MAS CONVENIENTE PARA QUE TUS PACIENTES ADQUIERAN UN IRRIGADOR BUCAL?', 
+		(CASE WHEN Resp7.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA7.name ELSE Resp7.ANSWER_STRING END) as '¿QUE MARCAS DE IRRIGADORES BUCALES CONOCES?', 
+		(CASE WHEN Resp8.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA8.name ELSE Resp8.ANSWER_STRING END) as '¿CUAL ES LA FRECUENCIA IDEAL DE VISITA PARA TI?', 
+		(CASE WHEN Resp9.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA9.name ELSE Resp9.ANSWER_STRING END) as '¿LOS MATERIALES QUE TE ESTAMOS ENTREGANDO SON UTILES?', 
+		(CASE WHEN Resp10.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA10.name ELSE Resp10.ANSWER_STRING END) as '¿SOBRE QUE TEMA ES MAS VALIOSO QUE TE COMPARTAMOS INFORMACION DE WATERPIK?', 
+		(CASE WHEN Resp11.ANSWER_SNR<>'00000000-0000-0000-0000-000000000000' THEN SA11.name ELSE Resp11.ANSWER_STRING END) as '¿QUE CONSIDERAS QUE HARIA MAS VALIOSA LA VISITA MEDICA?' 
+		 
+		from SURVEY_ANSWERED SAnsw
+		inner join SURVEY S on S.SURVEY_SNR = SAnsw.SURVEY_SNR 
+		inner join person P on P.pers_snr = SAnsw.pers_snr 
+		inner join users as U on U.user_snr = SAnsw.user_snr 
+		inner join compline as cl on U.cline_snr = cl.cline_snr
+		left outer join SURVEY_ANSWERED Resp1 on Resp1.USER_SNR = SAnsw.USER_SNR and Resp1.PERS_SNR = SAnsw.PERS_SNR and Resp1.DATE = SAnsw.DATE and Resp1.rec_stat = 0 and Resp1.SURVEY_QUESTION_SNR = @Pregunta1
+		left outer join SURVEY_ANSWERED Resp2 on Resp2.USER_SNR = SAnsw.USER_SNR and Resp2.PERS_SNR = SAnsw.PERS_SNR and Resp2.DATE = SAnsw.DATE and Resp2.rec_stat = 0 and Resp2.SURVEY_QUESTION_SNR = @Pregunta2
+		left outer join SURVEY_ANSWERED Resp3 on Resp3.USER_SNR = SAnsw.USER_SNR and Resp3.PERS_SNR = SAnsw.PERS_SNR and Resp3.DATE = SAnsw.DATE and Resp3.rec_stat = 0 and Resp3.SURVEY_QUESTION_SNR = @Pregunta3 
+		left outer join SURVEY_ANSWERED Resp4 on Resp4.USER_SNR = SAnsw.USER_SNR and Resp4.PERS_SNR = SAnsw.PERS_SNR and Resp4.DATE = SAnsw.DATE and Resp4.rec_stat = 0 and Resp4.SURVEY_QUESTION_SNR = @Pregunta4
+		left outer join SURVEY_ANSWERED Resp5 on Resp5.USER_SNR = SAnsw.USER_SNR and Resp5.PERS_SNR = SAnsw.PERS_SNR and Resp5.DATE = SAnsw.DATE and Resp5.rec_stat = 0 and Resp5.SURVEY_QUESTION_SNR = @Pregunta5
+		left outer join SURVEY_ANSWERED Resp6 on Resp6.USER_SNR = SAnsw.USER_SNR and Resp6.PERS_SNR = SAnsw.PERS_SNR and Resp6.DATE = SAnsw.DATE and Resp6.rec_stat = 0 and Resp6.SURVEY_QUESTION_SNR = @Pregunta6
+		left outer join SURVEY_ANSWERED Resp7 on Resp7.USER_SNR = SAnsw.USER_SNR and Resp7.PERS_SNR = SAnsw.PERS_SNR and Resp7.DATE = SAnsw.DATE and Resp7.rec_stat = 0 and Resp7.SURVEY_QUESTION_SNR = @Pregunta7
+		left outer join SURVEY_ANSWERED Resp8 on Resp8.USER_SNR = SAnsw.USER_SNR and Resp8.PERS_SNR = SAnsw.PERS_SNR and Resp8.DATE = SAnsw.DATE and Resp8.rec_stat = 0 and Resp8.SURVEY_QUESTION_SNR = @Pregunta8
+		left outer join SURVEY_ANSWERED Resp9 on Resp9.USER_SNR = SAnsw.USER_SNR and Resp9.PERS_SNR = SAnsw.PERS_SNR and Resp9.DATE = SAnsw.DATE and Resp9.rec_stat = 0 and Resp9.SURVEY_QUESTION_SNR = @Pregunta9
+		left outer join SURVEY_ANSWERED Resp10 on Resp10.USER_SNR = SAnsw.USER_SNR and Resp10.PERS_SNR = SAnsw.PERS_SNR and Resp10.DATE = SAnsw.DATE and Resp10.rec_stat = 0 and Resp10.SURVEY_QUESTION_SNR = @Pregunta10
+		left outer join SURVEY_ANSWERED Resp11 on Resp11.USER_SNR = SAnsw.USER_SNR and Resp11.PERS_SNR = SAnsw.PERS_SNR and Resp11.DATE = SAnsw.DATE and Resp11.rec_stat = 0 and Resp11.SURVEY_QUESTION_SNR = @Pregunta11
+		left outer join SURVEY_ANSWER SA1 on SA1.SURVEY_ANSWER_SNR = Resp1.ANSWER_SNR and SA1.rec_stat = 0
+		left outer join SURVEY_ANSWER SA2 on SA2.SURVEY_ANSWER_SNR = Resp2.ANSWER_SNR and SA2.rec_stat = 0
+		left outer join SURVEY_ANSWER SA3 on SA3.SURVEY_ANSWER_SNR = Resp3.ANSWER_SNR and SA3.rec_stat = 0
+		left outer join SURVEY_ANSWER SA4 on SA4.SURVEY_ANSWER_SNR = Resp4.ANSWER_SNR and SA4.rec_stat = 0
+		left outer join SURVEY_ANSWER SA5 on SA5.SURVEY_ANSWER_SNR = Resp5.ANSWER_SNR and SA5.rec_stat = 0
+		left outer join SURVEY_ANSWER SA6 on SA6.SURVEY_ANSWER_SNR = Resp6.ANSWER_SNR and SA6.rec_stat = 0
+		left outer join SURVEY_ANSWER SA7 on SA7.SURVEY_ANSWER_SNR = Resp7.ANSWER_SNR and SA7.rec_stat = 0
+		left outer join SURVEY_ANSWER SA8 on SA8.SURVEY_ANSWER_SNR = Resp8.ANSWER_SNR and SA8.rec_stat = 0
+		left outer join SURVEY_ANSWER SA9 on SA9.SURVEY_ANSWER_SNR = Resp9.ANSWER_SNR and SA9.rec_stat = 0
+		left outer join SURVEY_ANSWER SA10 on SA10.SURVEY_ANSWER_SNR = Resp10.ANSWER_SNR and SA10.rec_stat = 0
+		left outer join SURVEY_ANSWER SA11 on SA11.SURVEY_ANSWER_SNR = Resp11.ANSWER_SNR and SA11.rec_stat = 0
+		
+		where
+		P.pers_snr <> '00000000-0000-0000-0000-000000000000'
+		and SAnsw.rec_stat=0 
+		and P.rec_stat=0
+		and U.rec_stat=0
+		and U.status=1
+		and U.user_type=4 
+		and S.survey_snr = @Encuesta
+		and U.user_snr in ('".$ids."') 
+		 
+		group by cl.name,U.lname,U.fname,P.pers_snr,P.lname,P.mothers_lname,P.fname,S.name,SAnsw.date
+		,Resp1.ANSWER_SNR,Resp2.ANSWER_SNR,Resp3.ANSWER_SNR,Resp4.ANSWER_SNR,Resp5.ANSWER_SNR,Resp6.ANSWER_SNR,Resp7.ANSWER_SNR,Resp8.ANSWER_SNR,Resp9.ANSWER_SNR,Resp10.ANSWER_SNR,Resp11.ANSWER_SNR
+		,SA1.name,SA2.name,SA3.name,SA4.name,SA5.name,SA6.name,SA7.name,SA8.name,SA9.name,SA10.name,SA11.name
+		,Resp1.ANSWER_STRING,Resp2.ANSWER_STRING,Resp3.ANSWER_STRING,Resp4.ANSWER_STRING,Resp5.ANSWER_STRING,Resp6.ANSWER_STRING,Resp7.ANSWER_STRING,Resp8.ANSWER_STRING,Resp9.ANSWER_STRING,Resp10.ANSWER_STRING,Resp11.ANSWER_STRING
+		 
+		order by U.lname,U.fname,P.lname,P.mothers_lname,P.fname ";
+
+
+	//echo $qMedicos."<br>";
+	//echo $estatus."<br>";
+
+	if($tipo == 0){
+		$registroIni = $numPagina * $registrosPorPagina - $registrosPorPagina;
+		
+		$tope = "OFFSET ".$registroIni." ROWS 
+			FETCH NEXT ".$registrosPorPagina." ROWS ONLY ";
+				
+		$rsMedicosTotal = sqlsrv_query($conn, utf8_decode($qMedicos), array(), array( "Scrollable" => SQLSRV_CURSOR_KEYSET ));
+		
+		$totalRegistros = sqlsrv_num_rows($rsMedicosTotal);
+
+		$rsMedicos = sqlsrv_query($conn, utf8_decode($qMedicos.$tope));
+
+		$paginas = ceil($totalRegistros / $registrosPorPagina);
+			
+		//echo $qMedicos.$tope;
+			
+	}else{
+		$rsMedicos = sqlsrv_query($conn, utf8_decode($qMedicos), array(), array( "Scrollable" => SQLSRV_CURSOR_KEYSET ));
+	}
+
+	if($tipo == 2){//excel sin formato
+		$nombreArchivo = "../archivos/ListadoEncuestaMercadoWaterpik".date("dmYHis").".xlsx";
+		$spread = new Spreadsheet();
+
+		$spread->getProperties()
+					->setCreator("Smart-Scale")
+					->setTitle("Listado")
+					->setDescription("Listado de Encuesta Mercado Waterpik");
+	}
+	if($tipo == 1){//excel con formato
+		header("Content-type: application/vnd.ms-excel; name='excel'");
+		header("Content-Disposition: filename=listadoEncuestaMercadoWaterpik.xls");
+		header("Pragma: no-cache");
+		header("Expires: 0");
+	}
+	if($tipo == 3){
+		require('../pdf/fpdf.php');
+		$pdf=new FPDF('L', 'mm', array((array_sum($tam)/1.97),150));
+
+		$pdf->AddPage();
+		$pdf->SetFont('Arial','B',10);
+		$pdf->setDisplayMode(100, 'continuous');
+		$pdf->Cell(40,5,utf8_decode('LISTADO DE ENCUESTA MERCADO WATERPIK'));
+		$pdf->Ln();
+		$pdf->SetFont('Arial','B',10);
+		$pdf->Cell(40,5,'Church & Dwight');
+		$pdf->Ln();
+		$pdf->SetFont('Arial',10);
+		$pdf->Cell(40,5,'Fecha: '.date("d/m/Y h:i:s"));
+		$pdf->Ln();
+	}
+	
+	//$rsMedicos = sqlsrv_query($conn, utf8_decode($qMedicos), array(), array( "Scrollable" => SQLSRV_CURSOR_KEYSET ));
+	if( $rsMedicos === false ) {
+		if( ($errors = sqlsrv_errors() ) != null) {
+			foreach( $errors as $error ) {
+				echo "SQLSTATE: ".$error[ 'SQLSTATE']."<br />";
+				echo "code: ".$error[ 'code']."<br />";
+				echo "message: ".$error[ 'message']."<br />";
+			}
+		}
+	}
+	//echo $qMedicos;
+	$tamTabla = array_sum($tam) + 20;
+	if($tipo == 0 || $tipo == 1){
+		$tabla = '<table border="0">
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td colspan="10" class="nombreReporte">LISTADO DE ENCUESTA MERCADO WATERPIK</td>
+						</tr>
+						<tr>
+							<td colspan="10" class="clienteReporte">Church & Dwight</td>
+						</tr>
+						<tr>
+							<td colspan="10" class="fechaReporte">Fecha: '. date("d/m/Y h:i:s") .'</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id="divListadoMedicos">';
+						if($tipo == 0){
+							$tabla .= '<table id="tblListadoMedicos" width="'.$tamTabla.'px" class="tablaReportes" >';
+						}else{
+							$tabla .= '<table width="'.$tamTabla.'px" style="border-collapse: collapse;">';
+						}
+	}
+
+	if($tipo == 2){
+		$spread->setActiveSheetIndex(0)
+            ->setCellValue('A1', 'LISTADO DE ENCUESTA MERCADO WATERPIK')
+			->setCellValue('A2', 'Church & Dwight')
+			->setCellValue('A3', 'Fecha: '. date("d/m/Y h:i:s"));
+	}
+
+	if($tipo != 3){
+		if($tipo == 1){
+			$tabla .= '<thead style="background-color: #A9BCF5;font-weight:bold;border: 1px solid #000;padding: 5px 5px 5px 5px;color:#000"><tr>';
+		}
+		if($tipo == 0){
+			$tabla .= '<thead><tr>';
+		}
+	}else{
+		$pdf->SetFillColor(169,188,245);
+			$pdf->SetTextColor(0);
+			$pdf->SetDrawColor(0);
+			$pdf->SetLineWidth(1);
+			$pdf->SetFont('','B');
+	}
+
+	$i = 0;
+	foreach(sqlsrv_field_metadata($rsMedicos) as $field){
+		$celda = columna($i)."4";
+		if($i < 19){
+			if($tipo != 3){
+				if($tipo == 2){
+					$spread->setActiveSheetIndex(0)
+						->setCellValue($celda, utf8_encode($field['Name']));
+				}else{
+					if($tipo == 1){
+						$tabla .= '<td style="background-color: #A9BCF5;border: 1px solid #000;min-width:'.$tam[$i].'px;">'.utf8_encode($field['Name']).'</td>';
+					}else{
+						$tabla .= '<td style="min-width:'.$tam[$i].'px;">'.utf8_encode($field['Name']).'</td>';
+					}
+				}	
+			}else{
+				$pdf->Cell($tam[$i]/2,8,$field['Name'],1,0,'C',1);
+			}
+		}
+		$i++;
+	}
+
+	if($tipo == 0 || $tipo == 1){
+		$tabla .= '</tr></thead>';
+		$tabla .= '<tbody style="height:340px;">';
+	}
+	if($tipo == 3){
+		$pdf->Ln();
+		//Restauración de colores y fuentes
+		$pdf->SetFillColor(224,235,255);
+		$pdf->SetTextColor(0);
+		$pdf->SetFont('');
+		//Datos
+		$fill=false;
+	}
+
+	$i=1;
+	while($regMedico = sqlsrv_fetch_array($rsMedicos)){
+		//echo "registro: ".$i."<br>";
+		if($tipo == 0 || $tipo == 1){
+			$tabla .= '<tr>';
+		}
+
+		for($j=0;$j<sqlsrv_num_fields($rsMedicos);$j++){
+			if(is_object($regMedico[$j])){
+				foreach ($regMedico[$j] as $key => $val) {
+					if(strtolower($key) == 'date'){
+						$regMedico[$j] = substr($val, 0, 10);
+					}
+				}
+			}
+
+			if($tipo != 3){
+				if($tipo == 2){
+					$row = $i + 4;
+					$spread->setActiveSheetIndex(0)
+						->setCellValue(columna($j).$row, utf8_encode($regMedico[$j]));
+				}else{
+					if($tipo == 1){
+						$tabla .= '<td style="border: 1px solid #000;white-space:nowrap;min-width:'.$tam[$j].'px;">'.utf8_encode($regMedico[$j]).'</td>';
+					}else{
+						$tabla .= '<td style="min-width:'.$tam[$j].'px;">'.utf8_encode($regMedico[$j]).'</td>';
+					}
+				}
+			}else{
+				$pdf->Cell($tam[$j]/2,8,utf8_encode($regMedico[$j]),1,0,'L',$fill);
+			}
+		}
+
+		if($tipo == 0 || $tipo == 1){
+			$tabla .= '</tr>';
+		}
+		if($tipo == 3){
+			$pdf->Ln();
+			if($fill == true){
+				$fill = false;
+			}else{
+				$fill = true;
+			}
+		}
+		$i++;
+	}
+
+	//echo "Total: ".$totalRegistros."<br>";
+	if($tipo == 0){
+		$numRegs = $i - 1;
+		$tabla .= '<table width="100%" id="tblPaginasListadoMedicos"><tr style="background-color: #A9BCF5;font-weight:bold;border: 1px solid #000;padding: 5px 5px 5px 5px;color:#000;"><td align="center">';
+		if($totalRegistros > $registrosPorPagina){
+			$idsEnviar = str_replace("'","",$ids);
+			if($numPagina > 1){
+				$anterior = $numPagina - 1;
+				$tabla .= "<a href='#' onClick='nuevaPaginaListados(1,\"".$idsEnviar."\",\"listadoMedicos\",\"".$estatus."\");'>inicio</a>&nbsp;&nbsp;";
+				$tabla .= "<a href='#' onClick='nuevaPaginaListados(".$anterior.",\"".$idsEnviar."\",\"listadoMedicos\",\"".$estatus."\");'>anterior</a>&nbsp;&nbsp;";
+			}
+			$antes = $numPagina-5;
+			$despues = $numPagina+5;
+			for($i=1;$i<=$paginas;$i++){
+				if($i == $numPagina){
+					$tabla .= $i."&nbsp;&nbsp;";
+				}else{
+					if($i > $despues || $i < $antes){
+						//$tabla .= "<a href='#' onClick='nuevaPagina(".$i.",\"".$hoy."\",\"".$idsEnviar."\",\"".$visitados."\");'>".$i."</a>&nbsp;&nbsp;";
+					}
+				}
+			}
+			if($numPagina < $paginas){
+				$siguiente = $numPagina + 1;
+				$tabla .= "<a href='#' onClick='nuevaPaginaListados(".$siguiente.",\"".$idsEnviar."\",\"listadoMedicos\",\"".$estatus."\");'>Siguiente</a>&nbsp;&nbsp;";
+				$tabla .= "<a href='#' onClick='nuevaPaginaListados(".$paginas.",\"".$idsEnviar."\",\"listadoMedicos\",\"".$estatus."\");'>Fin</a>&nbsp;&nbsp;";
+			}
+			$tabla .= "Pag. ".$numPagina." de ".$paginas."&nbsp;&nbsp;&nbsp; Registros : ".$totalRegistros;
+			//$tabla .= "</td></tr></tfoot>";
+		}else{
+			//$tabla .= "<tfoot><tr><td colspan='16' align='center'>";
+			$tabla .= "Registros : ".$totalRegistros;
+			//$tabla .= "</td></tr></tfoot>";
+		}						
+		$tabla .= '</td></tr>
+		<tr>
+			<td colspan="10" class="derechosReporte">© Smart-Scale</td>
+		</tr>
+	</table>';
+		echo $tabla;
+	}
+
+	$row = $i+4;
+	//echo 'A'.$row;
+	if($tipo == 2){
+		$spread->setActiveSheetIndex(0)
+            ->setCellValue('A'.$row, 'Total registros: '.sqlsrv_num_rows($rsMedicos))
+			->setTitle('ListadoEncuestaMercadoWaterpik');
+
+		$spread->setActiveSheetIndex(0);
+
+		$objWriter = new Xlsx($spread);
+
+		$objWriter->save($nombreArchivo);
+		//header("Location: ".$nombreArchivo);
+		echo "fin";
+	}
+	if($tipo == 1){
+		$tabla .= '</tbody> ';
+		$tabla .= '<tfoot style="background-color: #A9BCF5;font-weight:bold;border: 1px solid #000;padding: 5px 5px 5px 5px;color:#000;">';
+
+		$numRegs = $i - 1;
+				$tabla .= '<tr>
+								<td colspan="10">Total registros: '.$numRegs.'</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="10" class="derechosReporte">© Smart-Scale</td>
+		</tr>
+	</table>';
+		echo $tabla;
+	}
+	if($tipo == 3){
+		$pdf->Output();
+	}
+	if($tipo == 0){
+		echo '<script>
+			$("#divCargando").hide();
+			$("#hdnQueryListado").val("'.str_replace("'","\'",str_ireplace($buscar,$reemplazar,$qMedicos)).'");
+		</script>';
+		//echo str_replace("'","\'",$qMedicos);
+	}
+?>
