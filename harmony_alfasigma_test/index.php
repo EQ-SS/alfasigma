@@ -67,7 +67,7 @@
 	
     </head>
     <body class="fondo">
-		<h1> Hola, bienvenido a harmony test en test en verdad love</h1>
+		<h1> Hola, bienvenido a harmony test en test en verdad lovee</h1>
 		<div class="justify-content-end">
 			<div class="col-md-offset-4 col-lg-5 col-md-8 col-sm-12 col-xs-12">
 				<div class="fdb-box fdb-touch">
